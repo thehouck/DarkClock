@@ -2,10 +2,12 @@
 # platform :ios, "6.0"
 
 target "Dark Clock" do
-pod 'AFNetworking'
+	pod 'AFNetworking'
 end
 
-target "Dark ClockTests" do
-
+target "Dark Clock-cal" do
+	pod 'AFNetworking'
+	pod 'Calabash'
 end
+
 

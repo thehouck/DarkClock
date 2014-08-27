@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0600"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "DDD28A9119AE792D0098D4B8"
+                     BuildableName = "Dark Clock-cal.app"
+                     BlueprintName = "Dark Clock-cal"
+                     ReferencedContainer = "container:Dark Clock.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,23 +32,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD2B885F19A7EF4E00AB9F24"
-               BuildableName = "Dark Clock.app"
-               BlueprintName = "Dark Clock"
-               ReferencedContainer = "container:Dark Clock.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD2B887519A7EF4E00AB9F24"
-               BuildableName = "Dark ClockTests.xctest"
-               BlueprintName = "Dark ClockTests"
+               BlueprintIdentifier = "DDD28A9119AE792D0098D4B8"
+               BuildableName = "Dark Clock-cal.app"
+               BlueprintName = "Dark Clock-cal"
                ReferencedContainer = "container:Dark Clock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,33 +46,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD2B887519A7EF4E00AB9F24"
-               BuildableName = "Dark ClockTests.xctest"
-               BlueprintName = "Dark ClockTests"
-               ReferencedContainer = "container:Dark Clock.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD0433E419AE7C3F00525925"
-               BuildableName = "Dark ClockTests copy.xctest"
-               BlueprintName = "Dark ClockTests copy"
-               ReferencedContainer = "container:Dark Clock.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD2B885F19A7EF4E00AB9F24"
-            BuildableName = "Dark Clock.app"
-            BlueprintName = "Dark Clock"
+            BlueprintIdentifier = "DDD28A9119AE792D0098D4B8"
+            BuildableName = "Dark Clock-cal.app"
+            BlueprintName = "Dark Clock-cal"
             ReferencedContainer = "container:Dark Clock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD2B885F19A7EF4E00AB9F24"
-            BuildableName = "Dark Clock.app"
-            BlueprintName = "Dark Clock"
+            BlueprintIdentifier = "DDD28A9119AE792D0098D4B8"
+            BuildableName = "Dark Clock-cal.app"
+            BlueprintName = "Dark Clock-cal"
             ReferencedContainer = "container:Dark Clock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -103,9 +87,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD2B885F19A7EF4E00AB9F24"
-            BuildableName = "Dark Clock.app"
-            BlueprintName = "Dark Clock"
+            BlueprintIdentifier = "DDD28A9119AE792D0098D4B8"
+            BuildableName = "Dark Clock-cal.app"
+            BlueprintName = "Dark Clock-cal"
             ReferencedContainer = "container:Dark Clock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -114,7 +98,25 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "cucumber&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "DDD28A9119AE792D0098D4B8"
+                     BuildableName = "Dark Clock-cal.app"
+                     BlueprintName = "Dark Clock-cal"
+                     ReferencedContainer = "container:Dark Clock.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
    </ArchiveAction>
 </Scheme>

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Dark Clock-cal.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Dark Clock.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,12 +17,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DD0433E419AE7C3F00525925</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DD2B885F19A7EF4E00AB9F24</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>DD2B887519A7EF4E00AB9F24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDD28A9119AE792D0098D4B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
