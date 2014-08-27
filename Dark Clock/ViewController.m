@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface ViewController ()
 {
@@ -24,7 +25,7 @@
 	[super viewDidLoad];
 	dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateFormat: @"MM-dd-yyyy\n hh:mm:ss a"];
- 
+	[[AFNetworkReachabilityManager sharedManager] startMonitoring];
 	[self updateClock];
 
 	
